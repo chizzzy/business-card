@@ -3,59 +3,61 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Andrey Chystiakov Business Card</title>
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Andrey Chystiakov Business Card</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header class="main-header">
-	<div class="container">
-	<!--Задний фон  
-		Фотография-->
-	<div class="row personal-profile"></div>
-	<div class="col-md-4 personal-profile_avatar">
-		<img src="icons/Andrey.jpg">
-	</div>
-	<div class="col-md-8">
-	<p class="huy">Andrey Chystiakov</p>
-	<p>Student of the 2-nd course of KSU, Trainee Front-End developer</p>
-	<div class="row personal-profile">
-	<dl>
-		<dt>AGE:</dt>
-			<dd>19</dd>
-		<dt>PHONE NUMBER:</dt>
-			<dd>
-				<a href="tel:0951627153">0951627153</a>
-			</dd>
-		<dt>EMAIL</dt>
-			<dd>
-				<a href="mailto:mgandrey99@gmail.com">mgandrey99@gmail.com</a>
-			</dd>
-		<dt>PLACE OF LIVING</dt>
-			<dd>Kherson, Ukraine</dd>
+		<div class="container">
+			<div class="row personal-profile">
+				<div class="col-md-4 hidden-xs personal-profile_avatar">
+					<img src="icons/Andrey.jpg">
+				</div>
+				<div class="col-md-8 info">
+					<p class="personal-profile_name">Andrey Chystiakov</p>
+					<p class="description">Student of the 2-nd course of KSU, Trainee Front-End developer</p>
+					<dl>
+						<div class="about-row"><dt>AGE:</dt>
+							<dd>19</dd>
+						</div>
+						<div class="about-row">
+							<dt>NUMBER:</dt>
+							<dd>
+								<a class="profile-link"href="tel:0951627153 data" >0951627153</a>
+							</dd>
+						</div>
+						<div class="about-row">
+							<dt>EMAIL:</dt>
+							<dd>
+								<a class= "profile-link" href="mailto:mgandrey99@gmail.com">mgandrey99@gmail.com</a>
+							</dd>
+						</div>
+						<div class="about-row">
+							<dt>LOCATION:</dt>
+							<dd>Kherson, Ukraine</dd>
+						</div>
+					</dl>
+					<p class = "personal-profile_social">
+						<a href="https://github.com/chizzzy" target="_blank">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="https://www.facebook.com/people/Andrey-Chystiakov/100010529381776" target="_blank">
+							<i class = "fab fa-facebook-square"></i>
+						</a>
+						<a href="https://vk.com/mgandrey" target="_blank">
+							<i class="fab fa-vk"></i>
+						</a>
+					</p>
+				</div>
+			</div>
 		</div>
-		<p class = "personal-profile__social">
-			<a href="https://github.com/chizzzy" target="_blank">
-				<i class="fab fa-github"></i>
-			</a>
-			<a href="https://www.facebook.com/people/Andrey-Chystiakov/100010529381776" target="_blank">
-				<i class = "fab fa-facebook-square"></i>
-			</a>
-			<a href="https://vk.com/mgandrey" target="_blank">
-				<i class="fab fa-vk"></i>
-			</a>
-		</p>
-		<!--Иконка гитхаба
-			Иконка вк
-			Иконка фейсбук  ряд-->
-	</dl>
-</div>
-	</div>
-</div>
-</header>
+	</header>
 	<!--Hi -->
+	<div class="container about">
 	<h2>A little bit about me</h2>
 	<p>I am a 19 years old software engineering student of Kherson State University.</p>
 	<h2>My objectives</h2>
@@ -70,9 +72,11 @@
 		<li>I have high communication skills. It’s not problem for me to cope with people whom I see for the first time in my life. If something gets wrong with these people I am always trying to find some compromises. </li>
 		<li>I am persistent person. If I can’t do something I will be trying until I can do it. It’s just a question of time.</li>
 	</ul>
-	<h3>To get in touch, write to
-	<a href="mailto:mgandrey99@gmail.com">mgandrey99@gmail.com.</a>
-	</h3>
-	<p>© 2016 Ivan Susanin. All Rights Reserved</p>
+	<div class="get-in-touch">
+		<span>To get in touch, write to</span>
+		<a class="email" href="mailto:mgandrey99@gmail.com">mgandrey99@gmail.com.</a>
+	</div>
+	<p class="reserved">© 2018 Andrey Chystiakov. All Rights Reserved</p>
+</div>
 </body>
 </html>
