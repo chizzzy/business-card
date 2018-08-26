@@ -108,7 +108,6 @@ a:hover {
 .email {
   border-bottom: 1px solid black;
   color: black;
-  transition: 0.5s;
   padding-bottom: 5px;
   font-size: 25px;
 }
