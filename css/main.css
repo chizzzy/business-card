@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #FFFAFA;
   background-color-font-family: 'Roboto', sans-serif;
 }
 
@@ -80,6 +80,12 @@ hr {
 .reserved {
   text-align: center;
   font-size: 12px;
+  padding-top: 50px;
+}
+
+.get-in-touch {
+  font-size: 25px;
+  padding-top: 50px;
 }
 
 .profile-link {
@@ -104,9 +110,46 @@ a:hover {
   color: black;
   transition: 0.5s;
   padding-bottom: 5px;
+  font-size: 25px;
 }
 
 .email:hover {
   color: black;
   border-bottom: 0px solid black;
+}
+
+ul {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.about_me {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-size-font-weight: 400;
+  font-size-color: #555;
+  font-size-line-height: 30px;
+}
+
+.title {
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+li {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 400;
+  color: #555;
+  line-height: 30px;
+}
+
+hr {
+  border: none;
+  background-color: #DCDCDC;
+  color: #DCDCDC;
+  height: 2px;
+  aling: center;
 }
